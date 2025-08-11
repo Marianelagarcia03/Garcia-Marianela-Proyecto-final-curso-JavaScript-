@@ -299,6 +299,9 @@ transition: background-color 0.2s;}
 button[type="submit"]:hover {
 background-color: #ff6270;}
 
+@media (max-width: 556px){.modal-body {flex-direction: column;
+gap: 20px;}}
+
 /* Footer */
 
 footer {
