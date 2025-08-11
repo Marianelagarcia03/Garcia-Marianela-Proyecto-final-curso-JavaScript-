@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>Glow & Beauty</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-pink" href="#">Glow & Beauty</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <button id="abrirLogin" class="btn btn-sm">
+                            Acceso / Registro
+                        </button>
+                        <button class="btn-carrito" id="btnCarrito" aria-label="Abrir carrito de compras">
+                            <i class="bi bi-cart"></i>
+                            <span class="contador-carrito"></span>
+                        </button>
+
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Glow & Beauty</h1>
+                <p>Descubrí lo mejor en cosmética y cuidado personal</p>
+                <a href="#productos" class="btn-hero">Ver Productos</a>
+            </div>
+        </section>
+        <section id="productos" class="productos">
+            <h2 class="text-center mb-4">Productos Destacados</h2>
+            <div id="contenedorProductos" class="producto"></div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="formulario">
+                <form id="formContacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required />
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+                <div id="mensajeEnvio">Consulta enviada, ¡gracias por contactarnos!</div>
+            </div>
+
+        </section>
+    </main>
+    <!-- modal -->
+    <div id="modalLogin" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" id="cerrarModal" aria-label="Cerrar modal">&times;</button>
+
+            <div class="modal-body">
+                <div id="loginSeccion" class="modal-column">
+                    <h2>Ingresar</h2>
+                    <form id="formLogin" action="#">
+                        <input type="text" id="loginUsuario" placeholder="Usuario" required>
+                        <input type="password" id="claveUsuario" placeholder="Clave" required>
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
+
+                <div id="registroSeccion" class="modal-column">
+                    <h2>Crear Cuenta</h2>
+                    <form id="formRegister">
+                        <input type="text" id="registroNombre" placeholder="Nombre" required>
+                        <input type="email" id="registroEmail" placeholder="Email" required>
+                        <input type="password" id="registroClave" placeholder="Clave" required>
+                        <button type="submit">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalCarrito">
+        <div id="carrito">
+            <h3>Carrito de Compras</h3>
+            <ul id="listaCarrito"></ul>
+            <p id="totalCarrito">Total: $0</p>
+            <button id="vaciarCarrito">Vaciar carrito</button>
+            <button id="cerrarModalCarrito">Cerrar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Glow and Beauty. Todos los derechos reservados.</p>
+        <p>Seguinos en Instagram: @Glow and Beauty</p>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
