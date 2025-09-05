@@ -10,4 +10,7 @@ observaciones: Para que se pueda evaluar la funcionalidad de los formuarios pre-
 - **JavaScript**
 - **Bootstrap 5**
 
+Como clonar este repositorio:  
+git clone https://github.com/Marianelagarcia03/Garcia-Marianela-Proyecto-final-curso-JavaScript-.git
+
 - ✏️ **Autora:** Marianela Garcia
