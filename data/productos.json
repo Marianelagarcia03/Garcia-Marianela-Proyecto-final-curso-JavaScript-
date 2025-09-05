@@ -1,0 +1,65 @@
+{"tienda": "Glow and Beauty",
+"productos" : [
+    {"id": 1,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/eletroporador_iaxgju.jpg",
+"nombre": "Electroporador Facial",
+"descripcion": "Mesoterapia Fototerapia Radiofrecuencia",
+"precio": 75000
+},
+
+{"id": 2,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769505/varitaradielle_xmlvap.jpg",
+"nombre": "Varita Radielle",
+"descripcion": "Accesorio de skincare con microcorriente ESM",
+"precio": 50000
+},
+
+{"id": 3,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/kitliderma_iy83vq.jpg",
+"nombre": "Kit Lidherma",
+"descripcion": "Crema, contorno de ojos y espuma de limpieza Hydrapore",
+"precio": 45000
+},
+{"id": 4,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/mascara_kwnjsu.jpg",
+"nombre": "Marcara Led",
+"descripcion": "Marcara para fototerapia led con 5 luces",
+"precio": 58000},
+
+{"id": 5,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769505/serumliderma_cw9ot5.jpg",
+"nombre": "Serum Tense Complex",
+"descripcion": "Serum Lidherma antioxidante y antiage Tense Complex",
+"precio":20000},
+
+{"id": 6,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/kitloreal_mkfuwj.jpg",
+"nombre": "Set completo Loreal",
+"descripcion": "Gel de limpieza, serum con ac.Hialuronico, serum color, máscara y óleo",
+"precio":60000},
+
+{"id": 7,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/cher_gbcwny.jpg",
+"nombre": "Kit Cher",
+"descripcion": "Kit completo cher para skincare",
+"precio": 38000},
+
+{"id": 8,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/kitdepi_g4gopl.webp",
+"nombre": "Kit Depilacion",
+"descripcion": "Depiladora de rostro mas depiladora de cuepo",
+"precio": 27000},
+
+{"id": 9,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769505/protectorsolar_brn0c1.jpg",
+"nombre": "Protector solar Isdin",
+"descripcion": "Fotoprotector solar isdin Age Repair",
+"precio": 15000},
+
+{"id": 10,
+"imagen": "https://res.cloudinary.com/duonotjwi/image/upload/v1754769504/espejomaquillaje_rrvi2f.webp",
+"nombre": "Espejo Led",
+"descripcion": "Espejo para escritorio con luz led",
+"precio": 35000}
+]
+}
